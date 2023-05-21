@@ -27,3 +27,40 @@
   transition-duration: 1s;
   transition-timing-function: ease-out;
 }
+.marker-box {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -500%);
+  display: flex;
+  gap: 10px;
+}
+.block {
+  width: 10px;
+  height: 10px;
+  border: 1px solid red;
+  border-radius: 50%;
+}
+.modalwind {
+  width: 300px;
+  height: 300px;
+  background-color: antiquewhite;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 250ms ease-out;
+}
+.is-close {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
