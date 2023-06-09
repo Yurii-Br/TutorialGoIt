@@ -1,32 +1,328 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title class="ttl">English language</title>
+    <link rel="icon" href="./img/swarzz.svg" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="window">
-        <div class="container-img">
-          <img src="./img/pic1.jpg" alt="" width="250" />
-          <img src="./img/pic2.jpg" alt="" width="250" />
-          <img src="./img/pic3.jpg" alt="" width="250" />
-          <img src="./img/S7.svg.png" alt="" width="250" />
+    <!-- header-site -->
+    <header class="head">
+      <div class="container flex-box">
+        <!-- logo -->
+        <div>
+          <a href="./index.html" class="logo neon-text"
+            >Alisa<span class="neon-text">Schwarzz</span></a
+          >
+          <p class="logo-par">Авторський курс англійської мови</p>
         </div>
+        <!-- address -->
+        <address class="adr">
+          <ul class="adr-list">
+            <li class="icon">
+              <a href=""
+                ><svg width="32" height="32" class="neon-icon">
+                  <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="number">
+              <a href="tel:+48333333333" class="text-link neon-text"
+                >+48 333 333 333
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="mailto:aliseMostova@gmail.com"
+                class="text-link neon-text"
+                >aliseMostova@gmail.com</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
+    </header>
+    <!-- main-site -->
 
-      <button class="btn-next">Next</button>
-      <button class="btn-prew">Prew</button>
+    <main class="main">
+      <section>
+        <div class="container hero-wrap">
+          <h1 class="hero-title">
+            Покращіть свої навички англійської мови з курсом від Аліси Шварц
+          </h1>
+          <p class="hero-par">
+            Ласкаво просимо на унікальний онлайн-курс англійської мови від Аліси
+            Шварц. Якщо ви мрієте вдосконалити свої навички англійської мови, то
+            ви знайшли правильне місце! Наш курс розроблений з метою допомогти
+            вам швидко та ефективно вивчити англійську мову, розкривши ваш
+            потенціал і відкривши нові можливості
+          </p>
+          <button
+            data-modal-open
+            type="button"
+            class="hero-btn neon-btn neon-text"
+          >
+            Записатись
+          </button>
+        </div>
+      </section>
+      <!-- perevagy -->
+      <section>
+        <div class="container box-sec-two">
+          <div class="left-list">
+            <h2 class="left-title">Переваги курсу:</h2>
+            <ul class="listone">
+              <li>
+                Вивчайте англійську мову з досвідченим викладачем Алісою Шварц,
+                яка має багаторічний досвід роботи.
+              </li>
+              <li>
+                Персоналізований підхід до кожного учня - курс адаптується до
+                вашого рівня та цілей вивчення.
+              </li>
+              <li>
+                Зручний онлайн формат навчання - ви можете вчитися в будь-який
+                зручний для вас час і з будь-якого місця.
+              </li>
+            </ul>
+          </div>
+          <div class="right-list">
+            <h2 class="right-title">Програма курсу:</h2>
+            <ul class="listtwo">
+              <li>Основні граматичні правила англійської мови.</li>
+              <li>
+                Розширення словникового запасу та вивчення фразеологізмів.
+              </li>
+              <li>Практика усного та письмового мовлення.</li>
+              <li>
+                Вивчення англійської мови через культурні аспекти та
+                інтерактивні завдання.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- test-lesson -->
+      <section>
+        <div class="container test-box">
+          <h3 class="test-title">Безкоштовний урок!</h3>
+          <p class="test-par">
+            Це відмінна можливість спробувати наш курс і переконатися, наскільки
+            ефективний і цікавий він для вас
+          </p>
+          <div class="wrap-test">
+            <img
+              src="./img/alise.png"
+              alt="teather"
+              width="339"
+              class="test-img"
+            />
 
-      <div class="modalwind is-close">
-        <button class="btn-close">Закрыть окно</button>
+            <ol class="list-test">
+              <li>
+                Кваліфікований викладач: Аліса Шварц - досвідчений викладач
+                англійської мови, яка має глибокі знання та вміння викладати
+                мову ефективно.
+              </li>
+              <li>
+                Індивідуальний підхід: Безкоштовний урок дозволить вам оцінити,
+                як Аліса адаптується до вашого рівня володіння англійською та
+                враховує ваші потреби та мету вивчення.
+              </li>
+              <li>
+                Пробний матеріал: Ви отримаєте доступ до пробного матеріалу з
+                курсу, який допоможе вам оцінити його структуру, якість та
+                цікавість.
+              </li>
+              <li>
+                Знайомство з методикою: Ви познайомитесь з методикою викладання
+                Аліси Шварц, що може бути корисним при виборі свого дальшого
+                шляху вивчення англійської мови.
+              </li>
+              <li>
+                Відповіді на питання: У вас буде можливість задати питання Алісі
+                та отримати відповіді, що допоможе вам зрозуміти більше про курс
+                та підхід викладача.
+              </li>
+              <li>
+                <button
+                  data-modal-open2
+                  type="button"
+                  class="hero-btn neon-btn neon-text"
+                >
+                  Записатись
+                </button>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <!-- price -->
+      <section>
+        <div class="container price-box">
+          <h3 class="price-title">Прайс:</h3>
+
+          <ul class="price-list">
+            <li class="card-box">
+              <h4 class="card-title">Пробний</h4>
+              <p class="card-par">урок</p>
+              <p class="price-price">0 UAH</p>
+            </li>
+
+            <li class="card-box">
+              <h4 class="card-title">1</h4>
+              <p class="card-par">урок</p>
+              <p class="price-price">350 UAH</p>
+            </li>
+
+            <li class="card-box sale">
+              <h4 class="card-title">12</h4>
+              <p class="card-par">уроків</p>
+              <p class="price-price">4200 UAH</p>
+              <p class="price-sale">4000 UAH</p>
+            </li>
+
+            <li class="card-box sale">
+              <h4 class="card-title">24</h4>
+              <p class="card-par">уроки</p>
+              <p class="price-price">8400 UAH</p>
+              <p class="price-sale">7290 UAH</p>
+            </li>
+
+            <li class="card-box sale">
+              <h4 class="card-title">48</h4>
+              <p class="card-par">уроків</p>
+              <p class="price-price">16800 UAH</p>
+              <p class="price-sale">14400 UAH</p>
+            </li>
+
+            <li class="card-box sale">
+              <h4 class="card-title">96</h4>
+              <p class="card-par">уроків</p>
+              <p class="price-price">33600 UAH</p>
+              <p class="price-sale">26880 UAH</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- footer-site -->
+    <footer class="foot">
+      <div class="container flex-box flex-foot">
+        <!-- logo -->
+        <div>
+          <a href="./index.html" class="logo neon-text"
+            >Alisa<span class="neon-text">Schwarzz</span></a
+          >
+          <p class="logo-par">Авторський курс англійської мови</p>
+        </div>
+
+        <p class="par-foot">
+          Запрошуємо вас долучитися до нашого курсу та розпочати захоплюючу
+          подорож до майстерності в англійській мові разом з Алісою Шварц!
+        </p>
+        <!-- address -->
+        <address class="adr adr-foot">
+          <ul class="adr-list">
+            <li class="icon">
+              <a href=""
+                ><svg width="32" height="32" class="neon-icon">
+                  <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <span class="adr-ph-ml">
+              <li class="number">
+                <a href="tel:+48333333333" class="text-link neon-text"
+                  >+48 333 333 333
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="mailto:aliseMostova@gmail.com"
+                  class="text-link neon-text"
+                  >aliseMostova@gmail.com</a
+                >
+              </li>
+            </span>
+          </ul>
+        </address>
+      </div>
+    </footer>
+
+    <!-- modal-window -->
+    <div data-modal class="backdrop is-hidden">
+      <div class="modal-window">
+        <!-- title -->
+        <p class="modal-title">Залиште ваші данні і ми з вами зв'яжемось</p>
+        <form class="modal-form">
+          <!-- name -->
+
+          <label for="user-name" class="modal-lab modal-par">Name</label>
+
+          <div class="modal-icon-wrap">
+            <input type="text" id="user-name" name="name" class="modal-inp" />
+            <svg width="18" height="18" class="blue-icon modal-icon-img">
+              <use href="./images/icon.svg#icon-person" class="icon-use"></use>
+            </svg>
+          </div>
+
+          <!-- phone -->
+          <label for="user-phone" class="modal-lab modal-par">Phone</label>
+
+          <div class="modal-icon-wrap">
+            <input type="tel" id="user-phone" name="name" class="modal-inp" />
+            <svg width="18" height="24" class="blue-icon modal-icon-img">
+              <use href="./images/icon.svg#icon-black-phone"></use>
+            </svg>
+          </div>
+
+          <!-- E-mail -->
+          <label for="user-email" class="modal-lab modal-par">Email</label>
+
+          <div class="modal-icon-wrap">
+            <input type="email" id="user-email" name="name" class="modal-inp" />
+            <svg width="18" height="24" class="blue-icon modal-icon-img">
+              <use href="./images/icon.svg#icon-envelope"></use>
+            </svg>
+          </div>
+
+          <!-- coments -->
+          <label for="user-coments" class="modal-lab modal-par">Comment</label>
+          <textarea
+            placeholder="Text input"
+            class="modal-inp text-ar"
+            name="coment"
+            id="user-coments"
+            cols="30"
+            rows="9"
+          ></textarea>
+
+          <!-- btn-send -->
+          <button type="submit" class="send-btn">Відправити</button>
+        </form>
+        <button data-modal-close type="button" class="btn-modal">
+          <svg width="8" height="8" class="cross">
+            <use href="./img/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
       </div>
     </div>
-    <button class="btn-open">Открыть окно</button>
 
-    <script src="./js/script.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
